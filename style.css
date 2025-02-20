@@ -86,7 +86,9 @@ meter {
     -webkit-user-drag: element;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 #home {
     display: flex;
     flex-direction: column;
@@ -132,4 +134,8 @@ h1 {
     height: 100vh;
     width: 100vw;
     background-color: #000000;
+}
+h2 {
+    font-size: 64px;
+    color: #fff;
 }
