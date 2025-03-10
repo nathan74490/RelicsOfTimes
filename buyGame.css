@@ -1,0 +1,20 @@
+.buyGame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 8vh;
+    background-color: darkgrey;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 93vh;
+}
