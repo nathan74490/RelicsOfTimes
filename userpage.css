@@ -5,7 +5,7 @@ body{
 .mainBox{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 93vh;
     width: 100vw;
     align-items: center;
     justify-content: space-between;
@@ -27,10 +27,30 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .textBox{
     background-color: lightgray;
-    height: 35vh;
+    height: 5vh;
     width: 35vh;
+    border-radius: 16px;
+    border: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vh;
+}
+
+.buttonStyle{
+    background-color: lightgray;
+    height: 5vh;
+    width: 15vh;
+    border-radius: 16px;
+    border: 0;
+    cursor: pointer;
 }
