@@ -1,3 +1,58 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: black solid 1px;
+    padding: 8px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+}
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.settings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons{
+    fill: #000000;
+}
+
+.icons:hover{
+    fill: #444444;
+    cursor: pointer;
+}
 /***
 		The new CSS reset - version 1.7.3 (last updated 7.8.2022)
 		GitHub page: https://github.com/elad2412/the-new-css-reset
@@ -115,3 +170,4 @@
         width: 100vw;
         background-color: #000000;
     }
+
